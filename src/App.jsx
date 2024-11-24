@@ -1,31 +1,19 @@
-import { useEffect, useState } from 'react';
 import './styles/App.css';
-import Card from './components/card';
+import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
+import { Home } from './pages/home';
+import { Login } from './pages/login';
+import { News } from './pages/news';
 
-function App() {
-  const [users, setUsers] = useState({})
 
-  useEffect(() => {
-    const fetchUsers = async () => {
-        const response = await fetch('http://localhost:8080/users').then(res => res?.json())
-        setUsers(response);
-    }
-    fetchUsers();
-  },[])
-
-  return (
-    <div className="flex flex-col w-screen h-screen">
-      {users?.map((user) => {
-        return(
-          <div className='bg-red-100 border border-blue-500'>
-            <div>{user.id}</div>
-            <div>{user.name}</div>
-            <div>{user.email}</div>
-          </div>
-        )
-      })}
-    </div>
-  );
+export default function App() {
+  return(
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home/>}></Route>
+        <Route path='/login' element={<Login/>}></Route>
+        <Route path='/news' element={<News/>}></Route>
+      </Routes>
+    </BrowserRouter>
+  )
 }
 
-export default App;
