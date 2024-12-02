@@ -31,9 +31,9 @@ export function Login(){
 
             <div className="flex just justify-center items-center w-full h-[80%]">
 
-                <div className="flex w-[70%] h-[80%]">
+                <div className="flex w-[1024px] h-[80%]">
 
-                    <div className="flex flex-col items-center w-[40%] gap-4 justify-center shadow-md shadow-slate-400 p-4 ">
+                    <div className="flex flex-col items-center w-[50%] gap-4 justify-center shadow-md shadow-slate-400 p-4 ">
                         <div className="w-28 h-28">
                             <img src="https://cdn-icons-png.flaticon.com/512/3364/3364044.png" alt="" />
                         </div>
@@ -64,11 +64,7 @@ export function Login(){
 
                     </div>
 
-                    <div className="w-full flex flex-col items-center  bg-gradient-to-r from-red-700 to-red-800 justify-center text-2xl shadow-md shadow-slate-400 p-4 ">
-                        <h1 className="text-white text-5xl font-bold">Bem vindo ao NewTecs</h1>
-                        <h2 className="text-xl text-white">Não tem uma conta?</h2>
-                        <button className="bg-transparent text-white flex w-20 border justify-center text-lg rounded-md border-white mt-3">Sign Up</button>
-                    </div>
+                    <div className="w-full flex flex-col items-center  bg-gradient-to-r from-red-700 to-red-800 justify-center text-2xl shadow-md shadow-slate-400 p-4 "></div>
                     
 
                 </div>

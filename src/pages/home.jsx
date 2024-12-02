@@ -42,6 +42,7 @@ export function Home() {
   },[])
 
   return (
+    <div className='overflow-x-hidden flex flex-col gap-16'>
     <div className='w-full min-h-screen overflow-x-hidden flex items-center gap-4 justify-start flex-col'>
       
       <Header/>
@@ -70,8 +71,9 @@ export function Home() {
           {news?.map((item) => <Card key={item?.id} props{...item}/>)}
         </Content>
       </div>
+      
+      </div>
       <Footer/>
-          
     </div>
   );
 }
