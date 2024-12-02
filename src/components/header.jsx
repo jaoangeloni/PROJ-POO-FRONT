@@ -3,7 +3,6 @@ import { sessionAtom } from "../storage/session.atom";
 
 export function Header() {
     const session = useAtomValue(sessionAtom)
-    console.log(session)
     const [sessionValue, setSessionValue] = useAtom(sessionAtom)
 
     return (
