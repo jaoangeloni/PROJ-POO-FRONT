@@ -1,7 +1,7 @@
 
 export function Content(props) {
     return (
-      <div className="bg-white h-full items-start grid grid-cols-4 gap-4 flex-wrap">
+      <div className="bg-white h-full flex flex-col gap-4">
        {props?.children}
       </div>
     );
