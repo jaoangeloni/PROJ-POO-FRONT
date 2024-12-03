@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# NewsTec
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+>  Um portal de notícias para conectar estudantes e funcionários da FATEC através de informações e atualizações .  
 
-## Available Scripts
+## 📦 Instalação
 
-In the project directory, you can run:
+Siga os passos abaixo para configurar o ambiente do projeto.
 
-### `npm start`
+### Pré-requisitos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- JDK 21
+- Node
+- Conta cloudinary
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Portal de Notícias da FATEC  
 
-### `npm test`
+> Um portal de notícias para conectar estudantes e funcionários da FATEC através de informações e atualizações .  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🌟 Introdução  
 
-### `npm run build`
+**Portal de Notícias da FATEC**.  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Aqui, alunos, professores e toda a comunidade acadêmica podem acessar informações sobre eventos, avisos institucionais, novidades no mundo acadêmico e muito mais. Além disso, o portal permite que notícias sejam adicionadas, editadas ou removidas, mantendo as informações sempre atualizadas e relevantes.  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Este projeto foi desenvolvido usando **Programação Orientada a Objetos (POO)**. Aprendemos muito no processo e vamos compartilhar mais sobre isso nas próximas seções.  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🛠️ Funcionalidades  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 💡 O que o portal faz:  
+1. **Adicionar notícias**  
+   - Insira o título, o conteúdo e uma data de publicação.  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. **Excluir notícias**  
+   - Remover conteúdos irrelevantes ou ultrapassados.  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. **Visualizar e navegar**  
+   - Listagem clara de todas as notícias, com a possibilidade de filtrar ou buscar por palavra-chave.  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. **Interface amigável**  
+   - Simples de usar e adaptada para qualquer dispositivo (computador, celular ou tablet).  
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📋 Requisitos  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### ✅ Requisitos Funcionais  
+- O sistema deve permitir o **cadastro de notícias** com título, descrição e data de publicação.  
+- Deve ser possível **remover notícias** que não são mais relevantes ou que foram inseridas incorretamente.  
+- As notícias devem ser exibidas em uma listagem clara, ordenadas por data, com a possibilidade de buscar ou filtrar por palavras-chave.  
+- Deve haver controle de acesso básico para garantir que apenas usuários logados possam criar ou excluir notícias.  
 
-### Code Splitting
+### ⚙️ Requisitos Não Funcionais  
+- **Performance**:  
+  - O sistema deve ser rápido, mesmo com um grande número de notícias cadastradas.  
+- **Compatibilidade**:  
+  - A aplicação deve ser acessível em diferentes navegadores (Chrome, Firefox, Edge) e dispositivos (PCs, tablets e smartphones).  
+- **Manutenibilidade**:  
+  - O código deve ser organizado e modular, facilitando a manutenção e possíveis atualizações futuras.  
+- **Escalabilidade**:  
+  - A arquitetura deve ser flexível para implementar funcionalidades futuras, como comentários ou notificações.  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 🖥️ Programação 
+- **POO na prática**: Conseguimos ver como conceitos como herança, encapsulamento e polimorfismo fazem sentido num projeto real.  
+- **Estrutura do código**: Descobrimos o valor de manter o código organizado e reutilizável, facilitando futuras manutenções.  
